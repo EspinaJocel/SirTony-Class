@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel ="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("a").on('click', function(event){
+                if (this.hash !=="") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate ({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+    <div class="banner" id="home">
+
+        <div class="navbar">
+            <div class="logo">3YE GIRL GROUP</div>
+
+            <ul>
+
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#news"> NEWS </a></li>
+                <li><a href="#about"> ABOUT US </a></li>
+                <li><a href="#gallery"> GALLERY </a></li>
+                <li><a href="#testimony"> TESTIMONY </a></li>
+
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1> WELCOME TO 3YE </h1>
+            <p> For more videos please subscribe to our channel. </p>
+
+            <div class="buttons">
+                <button type="button"><span></span> READ MORE </button>
+                <button type="button"><span></span> WATCH MORE </button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--this ends the homepage-->
+
+    <div class="blog-section" id="news">
+
+        <div class="section-content">
+
+            
+            <div class="title">
+                <h2> 3YE GIRL GROUP </h2>
+                <p>Members of 3YE under GH Entertainment </p>
+            </div>
+            <div class="cards">
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/5.jpg">
+                    </div>
+
+                    <div class="article">
+                        <h4> Son Yu Ji (손유지) </h4>
+                        <p> Yuji (유지) is a South Korean singer under GH Entertainment. 
+                            </br> </br>
+                             
+                            She is the leader of the girl group 3YE and a member of the co-ed group 
+                            Triple7. She is also a former member of Apple.B.
+                            Yuji originally debuted as a member of Apple.B on August 1, 2017 with the group's 
+                            first digital single "Woochuchu".
+                            In October, she became a contestant on the survival show The Unit. 
+                            She was eliminated in episode 7 after ranking 59th place.
+                        </p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button"> Read More </a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Released: January 4, 2022 </p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/6.jpg">
+                    </div>
+
+                    <div class="article">
+                        <h4> Park Yu Rim (박유림)</h4>
+                        <p> Yurim originally debuted as a member of Apple.B on 
+                            August 1, 2017 with the group's first digital single "Woochuchu".
+                            The group presumably disbanded in 2018.</br> </br>
+                            
+                            On May 21, 2019, she debuted as a member of 3YE with the group's first digital single "DMT".
+                            On August 10, 2021, Yurim debuted as a member of the project group Triple7 with the digital 
+                            single "Presente". The members of the group are a combination of the groups 3YE and B.I.G.</p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button"> Read More </a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Released: April 1, 2021</p>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="image-section">
+                        <img src="img/7.jpg">
+                    </div>
+
+                    <div class="article">
+                        <h4> Yoon Ha Eun (윤하은) </h4>
+                        <p> Haeun (하은) is a South Korean singer under GH Entertainment. She is the maknae of the 
+                            girl group 3YE and a member of the co-ed group Triple7. She is also a former member of Apple.B.</br> </br>
+                            
+                            On May 21, 2019, Haeun debuted as a member of 3YE with the group's first digital 
+                            single "DMT".On December 10, 2020, she released her first digital single "Winter Special". 
+                            The single included the song "Be There" and featured DinDin. </p>
+                    </div>
+
+                    <div class="blog-view">
+                        <a href="" class="button"> Read More </a>
+                    </div>
+
+                    <div class="posted-date">
+                        <p>Date Released: May 21, 2019</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--this ends the NEWSPAGE-->
+    <!--ABOUT US-->
+
+    <div class="about-section" id="about">
+        <div class="heading">
+            <h1>About Us</h1>
+            <p>3YE Profile and Facts. 3YE (써드아이) is a 3-member girl group 
+                under GH Entertainment. The group consists of: Yuji, Yurim, and Haeun. 
+                They debuted on May 21st, 2019 with DMT (Do Ma Thang)</p>
+        </div>
+        <div class="container">
+            <section class="about">
+                <div class="about-image">
+                    <img src="img/10.jpg">
+                </div>
+
+                <div class="about-content">
+                    <h2>3YE HISTORY</h2>
+                    <p>All 3YE members were a part of the five member girl group Apple.B, 
+                        which disbanded after two of the members left. The remaining girls: 
+                        Yuji, Yurim, and Haeun later re-debuted as 3YE with the digital single "DTM".
+                        In September 17, 2019, they came back with their second digital single "OOMM" .
+                        3YE released their third digital single "Queen" on February 21, 2020.</p>
+
+                        <a href="#" class="read-more">Read More</a>
+                </div>
+                
+            </section>
+
+        </div>
+    </div>
+
+    <!--This is for the Gallery page-->
+
+    <div class="gallery" id="gallery">
+
+        <input type="radio" name="photos" id="check1" checked>
+        <input type="radio" name="photos" id="check2">
+        <input type="radio" name="photos" id="check3">
+        <input type="radio" name="photos" id="check4">
+
+        <div class="gallery-container">
+            <h1>3YE PHOTO GALLERY</h1>
+            <div class="top-content">
+                <h3>Photo Gallery</h3>
+                <label for="check1">All Photos</label>
+                <label for="check2">Yuji Photos</label>
+                <label for="check3">Yurim Photos</label>
+                <label for="check4">Haeun Photos</label>
+            </div>
+
+            <div class="photo-gallery">
+                <div class="pic Events">
+                    <img src="img/12.jpg">
+                </div>
+                
+                <div class="pic Bonding">
+                    <img src="img/16.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/17.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/13.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/18.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/19.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/14.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/20.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/21.jpg">
+                </div>
+
+                <div class="pic Events">
+                    <img src="img/22.jpg">
+                </div>
+
+                <div class="pic Bonding">
+                    <img src="img/23.jpg">
+                </div>
+
+                <div class="pic Outing">
+                    <img src="img/24.jpg">
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!--this is for testimony-->
+
+    <div class="testimonials" id="testimony">
+        <div class="inner">
+            <h1>Testimonials</h1>
+            <div class="border"></div>
+
+            <div class="row">
+                
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/33.jpg" alt="">
+                        <div class="name">the BIAS List</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>I wasn’t too enthralled with 3YE’s debut year sound, but February’s Queen hit me unexpectedly hard. 
+                            I appreciated how it drew from older K-pop elements, largely foregoing trends. 
+                            That song alone made me anticipate the group’s eventual comeback. For the first time, a 3YE track 
+                            arrived with expectations. And judging from my initial shoulder shrug reaction to YESSIR, expectations 
+                            can be a dangerous thing.<br>
+
+                            In reality, I still prefer YESSIR to 3YE’s 2019 material, but it loses some of the 
+                            fun electro spark that made Queen such a treat. Instead, the song feels like a spiritual successor to Everglow’s 
+                            Dun Dun, given a brassy makeover to compliment the year’s trends. YESSIR is loud… pretty much from beginning to end.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/34.png" alt="">
+                        <div class="name">B.I.G‘s GUNMIN</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>This powerful, yet underrated trio is back with their first mini album to show everyone 
+                            who's boss! A rookie group that's quickly gaining traction, 3YE is definitely a group 
+                            to look out for.</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="testimonial">
+                        <img src="img/32.png" alt="">
+                        <div class="name">ReluctantCat</div>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <p>3YE pronounced as third eye, a name that suprises everyone is a 3 member girl group 
+                            that mainly does girl crush concepts.
+                            I first found the group with Queen which is a very confident banger. And it might 
+                            sound odd since girl crush is everywhere but their songs still manage to sound fresh 
+                            for the concept, maybe because of the larger focous on rap in their tracks.
+                            And maybe its just me but a kpop trio feels fairly rare outside of sub units for larger groups.
+                            They also have one of the weirder physical albums ive seen. Their last album Triangle is triangle 
+                            shaped and instead of a photo book has big triangle cards.</p>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+
+
+    
+    
+</body>
+</html>
